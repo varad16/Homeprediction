@@ -1,4 +1,4 @@
-Home Price Prediction in California
+# Home Price Prediction in California
 
 Project Overview
 
