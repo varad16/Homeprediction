@@ -1,10 +1,12 @@
 # Home Price Prediction in California
 
-Project Overview
+
+## Project Overview
 
 This project aims to predict housing prices in California using machine learning models. Various regression techniques were applied to determine the most accurate model for estimating median house values based on features such as median income, housing median age, and proximity to ocean locations.
 
-Dataset Description
+
+## Dataset Description
 
 The dataset contains housing-related attributes, including:
 
@@ -22,11 +24,13 @@ Median House Value: Target variable to predict
 
 Ocean Proximity: Categorical variable indicating closeness to the ocean
 
-Problem Statement
+
+## Problem Statement
 
 The goal is to build a predictive model that estimates house prices accurately using regression models while identifying the most influential features affecting housing prices.
 
-Data Preprocessing
+
+## Data Preprocessing
 
 Handled missing values using KNN Imputation.
 
@@ -44,7 +48,8 @@ Coordinate Ratios
 
 Removed less relevant features to avoid multicollinearity.
 
-Model Training & Evaluation
+
+## Model Training & Evaluation
 
 Several regression models were trained and evaluated:
 
@@ -73,7 +78,7 @@ R^2 Score: 1.0 (Overfitted)
 RMSE: 221.63 (Likely due to overfitting)
 
 
-Results & Conclusions
+## Results & Conclusions
 
 XGBoost (default settings) performed the best, achieving 79% accuracy with a low RMSE.
 
@@ -84,7 +89,7 @@ Feature importance analysis indicated that median income, population per househo
 The goal of predicting median house values was successfully achieved with high accuracy using ensemble models.
 
 
-Key Learnings
+## Key Learnings
 
 Feature engineering significantly improved model performance.
 
